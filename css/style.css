@@ -21,12 +21,26 @@
 
 }
 
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
 .header {
     background-color: aquamarine;
-    padding: 10px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.nav {
+  display: flex;
+  flex: 2 1 300px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -55,9 +69,8 @@
     border: 1px solid black;
     background-color: rgba(4, 0, 255, 0.863);
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 30px 0;
+    justify-content: center;
+    padding: 40px;
 
 }
 
@@ -68,10 +81,11 @@
 }
 
 .section {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 10px;
 }
 
 .border-black {
@@ -103,8 +117,27 @@
     flex: 1;
 }
 
+.bg-dark {
+    background-color: #222;
+}
+.bg-pink, .bg-blue, .bg-green, .bg-cyan {
+  text-align: center;
+}
 .box {
     width: 40%;
     height: 150px;
     border: 1px dotted black;
+}
+.footer {
+  background-color: #90fcd0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.footer .logo, .footer .bottom {
+  background-color: pink;
+  padding: 10px;
 }
