@@ -23,7 +23,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    
+
 }
 
 .header {
@@ -35,12 +35,13 @@ body {
     padding: 10px 20px;
 
 }
+
 .nav {
-  display: flex;
-  flex: 2 1 300px;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+    display: flex;
+    flex: 2 1 300px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -75,17 +76,18 @@ body {
 }
 
 .container {
-    width: 50%;
     margin: 0 auto;
     min-height: 150px;
+    width: 40%;
+    border: 1px dotted black;
 }
 
 .section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10px;
 }
 
 .border-black {
@@ -120,24 +122,31 @@ body {
 .bg-dark {
     background-color: #222;
 }
-.bg-pink, .bg-blue, .bg-green, .bg-cyan {
-  text-align: center;
+
+.bg-pink,
+.bg-blue,
+.bg-green,
+.bg-cyan {
+    text-align: center;
 }
+
 .box {
     width: 40%;
     height: 150px;
     border: 1px dotted black;
 }
+
 .footer {
-  background-color: #90fcd0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  flex-wrap: wrap;
+    background-color: #90fcd0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
 }
 
-.footer .logo, .footer .bottom {
-  background-color: pink;
-  padding: 10px;
+.footer .logo,
+.footer .bottom {
+    background-color: pink;
+    padding: 10px;
 }
